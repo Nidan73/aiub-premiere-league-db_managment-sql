@@ -1,0 +1,22 @@
+create table Player (Pid number(5) primary key,Pname varchar2(100),age number(3),address varchar2 (100),Tid number(5))
+desc Team
+
+insert into player values (1,'Neuer',33,'Germany',977)
+insert into player values (2,'Dani Alves',39,'Brazil',955)
+insert into player values (3,'Maldini',33,'Italy',999)
+insert into player values (4,'Ramos',35,'Spain',977)
+insert into player values (5,'Busquets',33,'Spain',999)
+insert into player values (6,'Xavi',42,'Spain',999)
+insert into player values (7,'Ronaldo',38,'Portugal',966)
+insert into player values (8,'Iniesta',39,'spain',999)
+insert into player values (9,'Lewandoski',33,'Poland',988)
+insert into player values (10,'Messi',35,'Argentina',999)
+insert into player values (11,'Neymar',31,'Brazil',966)
+insert into player values (12,'Mats',31,'Germany',955)
+insert into player values (13,'VVD',29,'Netherlands',977)
+insert into player values (14,'Carlos',53,'Brazil',977)
+
+select Pname,avg(age),Tid 
+from player
+having avg(age)<40
+Group by Tid 

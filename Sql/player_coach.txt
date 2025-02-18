@@ -1,0 +1,17 @@
+create table Player_coach (Pid number(5) primary key,Pname varchar2(100),age number(3),address varchar2 (100),cid number(5))
+desc Team
+
+insert into player_coach values (1,'Neuer',33,'Germany',40)
+insert into player_coach values (2,'Dani Alves',39,'Brazil',10)
+insert into player_coach values (3,'Maldini',33,'Italy',50)
+insert into player_coach values (4,'Ramos',35,'Spain',20)
+insert into player_coach values (5,'Busquets',33,'Spain',20)
+insert into player_coach values (6,'Xavi',42,'Spain',20)
+insert into player_coach values (7,'Ronaldo',38,'Portugal',30)
+insert into player_coach values (8,'Iniesta',39,'spain',20)
+insert into player_coach values (9,'Lewandoski',33,'Poland',40)
+insert into player_coach values (10,'Messi',35,'Argentina',30)
+insert into player_coach values (11,'Neymar',31,'Brazil',10)
+insert into player_coach values (12,'Mats',31,'Germany',40)
+insert into player_coach values (13,'VVD',29,'Netherlands',50)
+insert into player_coach values (14,'Carlos',53,'Brazil',10)

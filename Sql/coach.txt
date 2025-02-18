@@ -1,0 +1,17 @@
+create table coach (Cid number(5) primary key, Cname varchar2(100),Phone number(6),Tid number(5))
+
+insert into coach values (10,'Zidane',98756,977)
+insert into coach values (20,'Pep',98776,999)
+insert into coach values (30,'Carlo',98881,955)
+insert into coach values (40,'Kloop',98761,966)
+insert into coach values (50,'Tuchel',97816,988)
+
+select * from coach
+order by Cid
+
+create view Coach2
+as select cid,tid,cname
+from coach
+
+select * from coach2
+order by tid

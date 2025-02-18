@@ -1,0 +1,10 @@
+create table Authorty_ACL (MID number(5) primary key, AUID Number(6))
+
+insert into Authorty_ACL values (1,813)
+insert into Authorty_ACL values (2,815)
+insert into Authorty_ACL values (3,811)
+insert into Authorty_ACL values (4,820)
+insert into Authorty_ACL values (5,814)
+insert into Authorty_ACL values (6,816)
+insert into Authorty_ACL values (7,819)
+insert into Authorty_ACL values (8,812)

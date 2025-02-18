@@ -1,0 +1,13 @@
+create table Team_ACL (TID varchar2(100) primary key,Tname varchar2(100) ,MID Number(6))
+
+desc Team_ACL
+
+insert into Team_ACL values ('999_&_977','CS_vs_BBA',1)
+insert into Team_ACL values ('988_&_955' ,'COE_vs_LLB',2)
+insert into Team_ACL values ('999_&_955' ,'CS_vs_LLB',3)
+insert into Team_ACL values ('977_&_988' ,'BBA_vs_COE',4)
+insert into Team_ACL values ('966_&_977' ,'EEE_vs_BBA',5)
+insert into Team_ACL values ('999_&_966' ,'CS_vs_EEE',6)
+insert into Team_ACL values ('955_&_977' ,'LLB_vs_BBA',7)
+
+select * from Team_acl

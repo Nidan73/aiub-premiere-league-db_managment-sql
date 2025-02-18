@@ -1,0 +1,14 @@
+create table ACL (mid number(5) primary key, M_Loc Varchar2(100),Date1 date)
+
+insert into ACL values (1,'Gallery',to_date ('01-03-2022','dd-mm-yyyy'))
+insert into ACL values (2,'Gallery',to_date ('02-03-2022','dd-mm-yyyy'))
+insert into ACL values (3,'Gallery',to_date ('03-03-2022','dd-mm-yyyy'))
+insert into ACL values (4,'Gallery',to_date ('04-03-2022','dd-mm-yyyy'))
+insert into ACL values (5,'Gallery',to_date ('05-03-2022','dd-mm-yyyy'))
+insert into ACL values (6,'Gallery',to_date ('08-03-2022','dd-mm-yyyy'))
+insert into ACL values (7,'Gallery',to_date ('09-03-2022','dd-mm-yyyy'))
+insert into ACL values (8,'Gallery',to_date ('12-03-2022','dd-mm-yyyy'))
+
+select * from ACL
+order by mid
+
